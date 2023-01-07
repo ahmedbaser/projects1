@@ -25,14 +25,14 @@ section {
     min-height: 100vh;
 }
 .btn {
-    position: absolute;
+
     display: inline-block;
-    position: absolute;
     padding: 1.7rem 3rem;
     margin-top: 1rem;
+    margin-left: 288px;
     background-color: var(--main-color);
     top: 555px;
-    left: 450px;
+    left: 50rem;
     color: #fff;
     font-size: 2rem;
     border-radius: .5rem;
@@ -40,18 +40,22 @@ section {
 }
 
 .home {
+  background: url(/image/banner1.png);
+  transform: rotate(-180deg,right);
     
-    background: url(image/banner1.png);
-    transform: rotate(-180deg,-100deg);
-       
+    
+}
+.home .content {
+  margin-left: 70rem;
+  align-items: center;
+  text-align: center;
+
 }
 
-
 .home .content .home-title {
- position: absolute;   
+ position: absolute;
  width: 525px;
  height: 228px;
- left: 820;
  top: 216px;
  font-style: normal;
  font-weight: 700;
@@ -60,11 +64,11 @@ section {
  text-align: right;
 }
 .home .content p {
-    position: absolute;
+    margin-left: 73px;
+    margin-top: 450px; 
     width: 456px;
     height: 78px;
-    right: 833px;
-    top: 468px;
+    margin-right: 5rem;
     font-style: normal;
     font-size: 16px;
     color: #444343;
@@ -163,7 +167,7 @@ section {
     height: 300px;
     margin-left: 7rem;
     margin-top: 9rem;
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(/image/watch.png);
+    background: linear-gradient(-90deg, #F15B22 0%, rgba(241,91,34,0) 100%),url(/image/watch.png);
     border-radius: 8px; 
 }
    
