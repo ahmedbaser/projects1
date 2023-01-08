@@ -21,60 +21,58 @@ html {
 }
 
 section {
-    padding: 1rem 5%;
     min-height: 100vh;
 }
 .btn {
 
-    display: inline-block;
     padding: 1.7rem 3rem;
-    margin-top: 1rem;
+    margin-top: 100px;
     margin-left: 288px;
     background-color: var(--main-color);
-    top: 555px;
-    left: 50rem;
     color: #fff;
     font-size: 2rem;
     border-radius: .5rem;
     
 }
+main {
+    overflow: hidden;
+}  
 
 /* home section start */
 
 .home {
-  background: url(/image/banner1.png);
-  transform: rotate(-180deg,right);
-    
-    
+   background: url(image/banner1.png);
 }
+
 .home .content {
-  margin-left: 70rem;
-  align-items: center;
-  text-align: center;
+    margin-left: 800px;
+    align-items: center;
+    text-align: center;
 
 }
 
 .home .content .home-title {
- position: absolute;
- width: 525px;
- height: 228px;
- top: 216px;
- font-style: normal;
- font-weight: 700;
- font-size: 64px;
- line-height: 76px;
- text-align: right;
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    top: 216px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: right;
 }
 .home .content p {
     margin-left: 73px;
-    margin-top: 450px; 
     width: 456px;
+    padding-top: 450px;
     height: 78px;
     margin-right: 5rem;
     font-style: normal;
     font-size: 16px;
     color: #444343;
     text-align: right;
+     
     
 }
 /* home section end */
@@ -86,14 +84,15 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 5.5rem;
+    justify-content: center;
+    gap: 40px;
 }
 
 
 .about .image img {
     width: 569px;
     height: 721px;
-    margin-top: 130px;
+    margin-top: 130px; 
     
 
 }
@@ -156,9 +155,11 @@ section {
 .plans .box-container {
     display: flex;
     flex-wrap: wrap;
+    margin: 0px 105px;
     align-items: center;
-    text-align: center;
+    text-align: center; 
 }
+
 .plans .box-container .box {
     flex: 1 1 7rem;
 }
@@ -177,19 +178,19 @@ section {
     padding-top: 1.4rem;
 }
 .plans  .gradient-box {
+    margin-top: 10rem;
     width: 1140px;
     height: 300px;
-    margin-left: 7rem;
-    margin-top: 9rem;
-    background: linear-gradient(-90deg, #F15B22 0%, rgba(241,91,34,0) 100%),url(/image/watch.png);
+    margin-left: 135px;
+    background: linear-gradient(-90deg, #F15B22 0%, rgba(241,91,34,0) 100%),url(image/watch.png);
     border-radius: 8px; 
 }
    
 .plans  .gradient-box .box {
     width: 459px;
     height: 94px;
-    margin-left: 6rem;
-    padding-top: 7rem;
+    padding-left:70px;
+    padding-top: 65px;
 }
 
 .plans  .gradient-box .box h3 {
@@ -225,11 +226,13 @@ section {
     
 }
 .goals .box-container {
-    display: flex;
-    gap: 10px;
-    margin-left: 6rem;
-    margin-right: 7rem;
-}
+        display: flex;
+        gap: 10px;
+        margin-left: 100px;
+        margin-right: 120px;
+    }
+    
+
 
 .goals .box-container .box {
     flex: 1 1 10rem;
